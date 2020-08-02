@@ -12,7 +12,7 @@ export default function ContactForm ({preventSubmit, nameChange, numberChange, c
             <input className={styles.inputNumber} name="number" type="text" onChange={numberChange}></input>
           </label>
           <br />
-          <button className={styles.button, styles.submit} name="name" onClick={clickEvent} type="submit">Add to contacts</button>
+          <button className={styles.submit} name="name" onClick={clickEvent} type="submit">Add to contacts</button>
         </form>
     )
 }
